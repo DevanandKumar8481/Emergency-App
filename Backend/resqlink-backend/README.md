@@ -52,12 +52,12 @@ cp .env.example .env
 
 Edit `.env`:
 ```env
-PORT=5000
-NODE_ENV=development
-MONGODB_URI=mongodb://localhost:27017/resqlink
-JWT_SECRET=your_super_secret_32_char_minimum_key
-JWT_REFRESH_SECRET=another_secret_key
-CLIENT_ORIGINS=http://localhost:5173
+PORT=...
+NODE_ENV=...
+MONGODB_URI=.....
+JWT_SECRET=.....
+JWT_REFRESH_SECRET=..
+CLIENT_ORIGINS=...
 ```
 
 ### 3. Start MongoDB
